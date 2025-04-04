@@ -44,6 +44,10 @@ section{
 .card-img-top {
     width: 50%;
 }
+
+#shesh .card{
+    height: 300px;
+}
 .card {
     border-radius: 0;
     margin-top: 20px;
@@ -128,4 +132,43 @@ section{
 .accordion-button:hover {
     background-color: #070e2c;
     color: #fff;
+}
+
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #302b2b ;
+}
+
+#footer ul.list-unstyled li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#footer ul.list-unstyled li:hover a {
+    color: #ad7d7d;
+}
+
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 30px !important;
+    }
+    #shesh h2 {
+        font-size: 30px;
+    }
+    #shesh .col-lg-3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+#about .eyyy{
+    padding: 40px;
+
+}
+#about .ngee{
+    padding: 300px;
+
+}
 }
